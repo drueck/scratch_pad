@@ -1,0 +1,5 @@
+<input type="text" class="note-title" value="<%= @note.title %>" />
+<br>
+<textarea class="note-content"><%= @note.content %></textarea>
+<br>
+<input type="submit" />

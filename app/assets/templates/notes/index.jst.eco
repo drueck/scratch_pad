@@ -1,9 +1,9 @@
 <ul>
-  <% notes.each do |note| %>
+  <% for note in @notes: %>
     <li>
       <dl>
         <dt>Title</dt>
-        <dd><%= link_to note.title, note %></dd>
+        <dd><a href="/notes/<%= note.id %>"><%= note.title %></a></dd>
         <dt>Content</dt>
         <dd><%= note.content %></dd>
       </dl>
