@@ -8,3 +8,4 @@
 <div class="footer">
   <button class="save">Save</button>
 </div>
+<button class="destroy-note" tabindex="-1">Remove</button>
