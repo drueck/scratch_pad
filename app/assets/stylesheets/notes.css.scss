@@ -79,4 +79,8 @@
       display: block;
     }
   }
+
+  &.error {
+    border-color: red;
+  }
 }
