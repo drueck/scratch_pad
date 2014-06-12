@@ -16,8 +16,8 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.0'
+
+gem 'active_model_serializers', '~> 0.8.0'
 
 gem 'backbone-on-rails', '~> 1.1.0.0'
 gem 'lodash-rails', '~> 2.2.1'
