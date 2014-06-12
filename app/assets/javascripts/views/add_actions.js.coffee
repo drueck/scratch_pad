@@ -12,4 +12,4 @@ class App.Views.AddActions extends Backbone.View
 
   addNote: (e) ->
     e.preventDefault()
-    @collection.add({})
+    @collection.add(new App.Models.StickyNote)
