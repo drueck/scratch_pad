@@ -21,7 +21,7 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'backbone-on-rails', '~> 1.1.0.0'
 gem 'lodash-rails', '~> 2.2.1'
-
+gem 'momentjs-rails', '~> 2.4.0'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc

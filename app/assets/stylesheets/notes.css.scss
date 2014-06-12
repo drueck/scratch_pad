@@ -55,7 +55,14 @@
     }
   }
 
-  .footer {
+  .normal-footer {
+    color: gray;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    font-size: 0.8em;
+  }
+
+  .editing-footer {
     display: none;
   }
 
@@ -75,7 +82,10 @@
   &.editing {
     border-color: blue;
 
-    .footer {
+    .normal-footer {
+      display: none;
+    }
+    .editing-footer {
       display: block;
     }
   }
