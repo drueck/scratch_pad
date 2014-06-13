@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require lodash
 //= require backbone
+//= require backbone.stickit
 //= require moment
 //= require scratch_pad
 //= require_tree ../templates

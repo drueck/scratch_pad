@@ -1,1 +1,3 @@
-<input type="text" class="todo-item-title" value="<%= @todoItem.get('title') %>" />
+<input type="checkbox" class="todo-item-complete" />
+<input type="text" class="todo-item-title" placeholder="Add a new todo item"
+  value="<%= @todoItem.get('title') %>" />

@@ -5,9 +5,7 @@ class App.Models.StickyNote extends Backbone.Model
 
   hasTitle: -> @hasAttribute('title')
   hasContent: -> @hasAttribute('content')
-
-  hasAttribute: (attr) ->
-    @has(attr) && @get(attr).trim() != ""
+  hasAttribute: (attr) -> @has(attr) && @get(attr).trim() != ""
 
   parse: (data) ->
     data.content = data.body.sticky_note?.content || ""
